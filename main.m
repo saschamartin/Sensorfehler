@@ -1,8 +1,8 @@
-pmtools = 'C:\Users\sp-ma\Documents\Studium\Bachelorarbeit\Sensorfehler\PMtools\autrun.m';
+pmtools = 'C:\Users\sp-ma\Documents\Studium\Bachelorarbeit\Sensorfehler\Abgabe\PMtools\autrun.m';
 run(pmtools);
 
 loadSystem;
-cd 'C:\Users\sp-ma\Documents\Studium\Bachelorarbeit\Sensorfehler\Faulttolerant Flutter Suppression\script';
+cd 'C:\Users\sp-ma\Documents\Studium\Bachelorarbeit\Sensorfehler\Abgabe';
 Signal = [7 12 26 32 34 38 44 46 50 56 58 62 68 70 74 80 82 86 92 94];
 
 % testausschlaege;
