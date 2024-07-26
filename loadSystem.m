@@ -39,10 +39,10 @@ cd 'C:\Users\sp-ma\Documents\Studium\Bachelorarbeit\Sensorfehler\Faulttolerant F
 % end
 
 %% closed loop system (sysCL)
-G = ones(95,1);
-index = [68 80];
-G(index)=[0.001 4.1402];
-G = diag(G);
+% G = ones(95,1);
+% index = [68 80];
+% G(index)=[0.001 4.1402];
+% G = diag(G);
 K = K(:,:,VeloIndexK);%*G;
 relOutput = 1:1:length(K.InputName);%too many outputs from sys for K -> using just the necessary inputs
 sysOL = sysOL(relOutput,:,VeloIndexSys);
