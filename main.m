@@ -20,3 +20,9 @@ Signal = [7 12 26 32 34 38 44 46 50 56 58 62 68 70 74 80 82 86 92 94];
 sysOL56 = G256;
 [G160,G260] = freqsep(sysOL60(relOutput,:),1.4148);
 sysOL60 = G260;
+
+[g1,g2] = freqsep(sysOL,1.4148);
+sysOL = g2;
+
+% sysOL=sysOL56;
+% K=K56;

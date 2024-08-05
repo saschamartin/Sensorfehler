@@ -41,4 +41,5 @@ K60 = K(:,:,VeloIndexK60);%*G;
 sysOL60 = sysOL(relOutput,:,VeloIndexSys60);
 sysCL60 = feedback(sysOL60,K60);
 
-sysCL = sysCL56;
+K = K(:,:,15);
+sysOL = sysOL(relOutput,:,29);
