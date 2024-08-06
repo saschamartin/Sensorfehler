@@ -1,4 +1,3 @@
-
 % dz = cumtrapz(yCL(:,56)-yCL(:,7));
 % z = cumtrapz(dz);
 % 
