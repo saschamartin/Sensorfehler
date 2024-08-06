@@ -2,6 +2,7 @@
 Berücksichtigung von Sensorfehlern bei der aktiven Unterdrückung von Flattern
 
 | Dateien | Erklärung |
+|---------|-----------|
 | Approximation.slx | Simulinkmodell |
 | Ausschlag_accel_vel_pos.m | Visualisierung der Flügelzustände einer Schwingung |
 | OutputPlot.m | Darstellung der Graphen bei Auslenkung des Systems |
